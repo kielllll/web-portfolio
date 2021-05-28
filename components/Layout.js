@@ -1,6 +1,7 @@
 import Footer from "./Footer";
 import NavBar from "./NavBar";
 import Head from "next/head";
+import Container from "@material-ui/core/Container";
 
 const Layout = ({ children }) => {
   return (
@@ -15,9 +16,11 @@ const Layout = ({ children }) => {
           href="https://fonts.googleapis.com/icon?family=Material+Icons"
         />
       </Head>
-      <NavBar />
-      {children}
-      <Footer />
+      <Container maxWidth="md">
+        <NavBar />
+        {children}
+        <Footer />
+      </Container>
     </div>
   );
 };
