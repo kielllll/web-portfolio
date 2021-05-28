@@ -6,7 +6,7 @@ export default function About() {
       <Head>
         <title>About | Ezekiel Tarranza</title>
       </Head>
-      <h1>About Page</h1>
+      <h1>Gear</h1>
     </div>
   );
 }
