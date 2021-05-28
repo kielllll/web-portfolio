@@ -4,7 +4,7 @@ import Head from "next/head";
 
 const Layout = ({ children }) => {
   return (
-    <div>
+    <div className="content">
       <Head>
         <link
           rel="stylesheet"
