@@ -8,18 +8,10 @@ import Typograhy from "@material-ui/core/Typography";
 export default function Home() {
   const featuredProjects = [
     {
-      name: "Peformance Analysis: TOTP Algorithm",
-      description: "A research project during my final year in college.",
-      image: "/images/none.png",
-      repoLink: "https://github.com/kielllll/thesis-ui",
-      productionLink: "https://thesis-totp.herokuapp.com/",
-      tags: ["nuxt.js", "html", "css", "heroku"],
-    },
-    {
       name: "Digital Knowmad",
       description:
         "A capstone project during my web development bootcamp with Zuitt.",
-      image: "/images/none.png",
+      image: "/images/none.jpg",
       repoLink:
         "https://gitlab.com/tuitt/students/batch95/ezekiel-tarranza/csp2/app-client",
       productionLink: "https://zeke-csp2-app-client.glitch.me/",
@@ -29,16 +21,24 @@ export default function Home() {
       name: "Budget Wiser",
       description:
         "A capstone project during my web development bootcamp with Zuitt.",
-      image: "/images/none.png",
+      image: "/images/none.jpg",
       repoLink: "https://gitlab.com/kielllll/csp3-client",
       productionLink: "https://csp3-client-je4pi3m7s-kielllll.vercel.app/",
       tags: ["next.js", "html", "css", "vercel"],
     },
     {
+      name: "Peformance Analysis: TOTP Algorithm",
+      description: "A research project during my final year in college.",
+      image: "/images/none.jpg",
+      repoLink: "https://github.com/kielllll/thesis-ui",
+      productionLink: "https://thesis-totp.herokuapp.com/",
+      tags: ["nuxt.js", "html", "css", "heroku"],
+    },
+    {
       name: "Web Portfolio",
       description:
         "My own web portfolio. Inspiored by Benjanmin Carlson's Profile",
-      image: "/images/none.png",
+      image: "/images/none.jpg",
       repoLink: "https://github.com/kielllll/web-portfolio",
       productionLink: "https://csp3-client-iota.vercel.app/",
       tags: ["next.js", "html", "css", "vercel"],

@@ -1,6 +1,8 @@
 import Card from "@material-ui/core/Card";
+import CardActions from "@material-ui/core/CardActions";
 import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
+import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import styles from "../styles/Project.module.css";
 
@@ -11,19 +13,31 @@ const Project = ({ project }) => {
     <Card className={styles.root}>
       <CardMedia
         className={styles["project-image"]}
-        image="./images/none.jpg"
+        image={image}
         title={name}
       />
-      <CardContent>
-        <a href={repoLink} target="_blank">
+      <div className={styles["sub-root"]}>
+        <CardContent>
           <Typography component="h5" variant="h5">
             {name}
           </Typography>
-        </a>
-        <Typography variant="subtitle1" color="textSecondary">
-          {description}
-        </Typography>
-      </CardContent>
+          <Typography variant="subtitle1" color="textSecondary">
+            {description}
+          </Typography>
+        </CardContent>
+        <CardActions>
+          <Button size="small">
+            <a href={repoLink} target="_blank">
+              Repository
+            </a>
+          </Button>
+          <Button size="small">
+            <a href={productionLink} target="_blank">
+              Live
+            </a>
+          </Button>
+        </CardActions>
+      </div>
     </Card>
   );
 };

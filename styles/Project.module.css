@@ -2,7 +2,12 @@
   display: flex;
 }
 
+.sub-root {
+  display: flex;
+  flex-direction: column;
+}
+
 .project-image {
-  width: 100px;
-  height: 100px;
+  width: 145px;
+  height: 145px;
 }
