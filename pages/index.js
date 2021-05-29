@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Project from "../components/Project";
 import Experience from "../components/Experience";
+import Education from "../components/Education";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -77,6 +78,22 @@ export default function Home() {
     },
   ];
 
+  const education = [
+    {
+      name: "Zuitt",
+      duration: "February 2021 - June 2021",
+      course: "Web Developer Bootcampee",
+      description:
+        "A web development bootcamp that uses the MERN stack. Has 3 capstone projects which really honed my skills.",
+    },
+    {
+      name: "University of Mindanao",
+      duration: "June 2016 - Present",
+      course: "BS in Computer Science",
+      description: "A lot of Mathematics, Theories, and Principles!",
+    },
+  ];
+
   return (
     <div>
       <Head>
@@ -118,6 +135,11 @@ export default function Home() {
 
       <section>
         <h2>Education</h2>
+        {education.map((school, e) => (
+          <div key={e} className={styles.child}>
+            <Education school={school} />
+          </div>
+        ))}
         <hr />
       </section>
 

@@ -1,0 +1,27 @@
+.root {
+  display: flex;
+}
+
+.content {
+  width: 100%;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-child-left {
+  width: 40%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-child-right {
+  width: 60%;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+}
