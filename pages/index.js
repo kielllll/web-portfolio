@@ -3,6 +3,7 @@ import Project from "../components/Project";
 import Experience from "../components/Experience";
 import Education from "../components/Education";
 import styles from "../styles/Home.module.css";
+import Typograhy from "@material-ui/core/Typography";
 
 export default function Home() {
   const featuredProjects = [
@@ -101,20 +102,24 @@ export default function Home() {
       </Head>
 
       <section>
-        <h1>
-          Hi there! I'm Ezekiel Tarranza, an aspirant Full-Stack Developer,
-          tech-enthusiast, and a potato!
-        </h1>
-        <p>
+        <Typograhy component="h1" variant="h1">
+          Ezekiel Tarranza
+        </Typograhy>
+        <Typograhy component="h4" variant="subtitle1">
+          Hi there! I'm a Full-Stack Developer, tech-enthusiast, and a potato!
+        </Typograhy>
+        <Typograhy component="h5" variant="subtitle1">
           I find developing things fun! I explore, get in awe, and learn how to
           do it. I do really love to work in groups as it is one of my forms of
           socializing, making me a very good team-player!
-        </p>
+        </Typograhy>
         <hr />
       </section>
 
       <section>
-        <h2>Featured Projects</h2>
+        <Typograhy component="h3" variant="h3">
+          Featured Projects
+        </Typograhy>
         {featuredProjects.map((featuredProject, e) => (
           <div key={e} className={styles.child}>
             <Project project={featuredProject} />
@@ -124,7 +129,9 @@ export default function Home() {
       </section>
 
       <section>
-        <h2>Experience</h2>
+        <Typograhy component="h3" variant="h3">
+          Experience
+        </Typograhy>
         {experiences.map((experience, e) => (
           <div key={e} className={styles.child}>
             <Experience experience={experience} />
@@ -134,7 +141,9 @@ export default function Home() {
       </section>
 
       <section>
-        <h2>Education</h2>
+        <Typograhy component="h3" variant="h3">
+          Education
+        </Typograhy>
         {education.map((school, e) => (
           <div key={e} className={styles.child}>
             <Education school={school} />
@@ -144,7 +153,9 @@ export default function Home() {
       </section>
 
       <section>
-        <h2>Tech Stack</h2>
+        <Typograhy component="h3" variant="h3">
+          Tech Stack
+        </Typograhy>
         <hr />
       </section>
     </div>
