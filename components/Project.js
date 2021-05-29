@@ -11,7 +11,7 @@ const Project = ({ project }) => {
     <Card className={styles.root}>
       <CardMedia
         className={styles["project-image"]}
-        image="./images/none.png"
+        image="./images/none.jpg"
         title={name}
       />
       <CardContent>
