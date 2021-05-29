@@ -22,7 +22,7 @@ function HideOnScroll(props) {
 const NavBar = () => {
   return (
     <HideOnScroll>
-      <AppBar color="transparent">
+      <AppBar color="default">
         <Toolbar>
           <div>
             <h1>
