@@ -15,15 +15,15 @@ const Experience = ({ experience }) => {
             <Typography component="h5" variant="h5">
               {company}
             </Typography>
-            <Typography component="subtitle1" color="textPrimary">
+            <Typography variant="subtitle1" color="textPrimary">
               {role}
             </Typography>
           </div>
           <div className={styles["header-child-right"]}>
-            <Typography component="subtitle1" color="textPrimary">
+            <Typography variant="subtitle1" color="textPrimary">
               {duration}
             </Typography>
-            <Typography component="subtitle1" color="textPrimary">
+            <Typography variant="subtitle1" color="textPrimary">
               {jobType}
             </Typography>
           </div>
