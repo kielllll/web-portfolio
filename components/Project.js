@@ -6,7 +6,7 @@ import styles from "../styles/Project.module.css";
 
 const Project = ({ project }) => {
   const { name, description, repoLink, productionLink, image, tags } = project;
-  console.log(repoLink);
+
   return (
     <Card className={styles.root}>
       <CardMedia

@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Project from "../components/Project";
+import Experience from "../components/Experience";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -42,6 +43,40 @@ export default function Home() {
     },
   ];
 
+  const experiences = [
+    {
+      company: "Summit Digital",
+      role: "Automations / Web Developer",
+      duration: "March 2021 - Present",
+      jobType: ["Part Time"],
+      description:
+        "Develop Lead Funnels and Automations through GoHighLevel CRM, LeadsHook, and Integration Platforms i.e Zapier, Pipedream.",
+    },
+    {
+      company: "itGenius",
+      role: "Software Engineer",
+      duration: "August 2019 - Present",
+      jobType: ["Full Time"],
+      description:
+        "Developing Web Applications, API Integrations, Automations, and Data Visualization using Google Data Studio",
+    },
+    {
+      company: "Concentrix",
+      role: "Technical Support Expert",
+      duration: "June 2019 - August 2019",
+      jobType: ["Full Time"],
+      description: "Provide seamless solutions to the consumers.",
+    },
+    {
+      company: "itGenius",
+      role: "Software Engineer",
+      duration: "October 2018 - February 2019",
+      jobType: ["Intern"],
+      description:
+        "Assist on Senior Engineers on the Web Development and API integrations.",
+    },
+  ];
+
   return (
     <div>
       <Head>
@@ -64,7 +99,7 @@ export default function Home() {
       <section>
         <h2>Featured Projects</h2>
         {featuredProjects.map((featuredProject, e) => (
-          <div key={e} className={styles.project}>
+          <div key={e} className={styles.child}>
             <Project project={featuredProject} />
           </div>
         ))}
@@ -73,6 +108,11 @@ export default function Home() {
 
       <section>
         <h2>Experience</h2>
+        {experiences.map((experience, e) => (
+          <div key={e} className={styles.child}>
+            <Experience experience={experience} />
+          </div>
+        ))}
         <hr />
       </section>
 
