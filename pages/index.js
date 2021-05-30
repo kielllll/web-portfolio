@@ -102,7 +102,7 @@ export default function Home() {
       </Head>
 
       <section>
-        <Typography component="h1" variant="h1">
+        <Typography component="h1" variant="h2">
           Zeke
         </Typography>
         <Typography component="h4" variant="subtitle1">
@@ -157,6 +157,29 @@ export default function Home() {
         <Typography component="h3" variant="h3">
           Tech Stack
         </Typography>
+        <Typography component="h4" variant="subtitle1">
+          These are what I'm using and I've learned throughout the years of
+          exploring! Currently I'm focusing on MERN stack.
+        </Typography>
+        <div className={styles.icons}>
+          <i className={`devicon-git-plain colored ${styles.icon}`}></i>
+          <i className={`devicon-googlecloud-plain colored ${styles.icon}`}></i>
+          <i className={`devicon-mongodb-plain colored ${styles.icon}`}></i>
+          <i className={`devicon-express-original colored ${styles.icon}`}></i>
+          <i className={`devicon-react-original colored ${styles.icon}`}></i>
+          <i className={`devicon-nodejs-plain colored ${styles.icon}`}></i>
+          <i className={`devicon-javascript-plain colored ${styles.icon}`}></i>
+          <i className={`devicon-html5-plain colored ${styles.icon}`}></i>
+          <i className={`devicon-css3-plain colored ${styles.icon}`}></i>
+          <i className={`devicon-java-plain colored ${styles.icon}`}></i>
+          <i className={`devicon-android-plain colored ${styles.icon}`}></i>
+          <i className={`devicon-mysql-plain colored ${styles.icon}`}></i>
+          <i className={`devicon-php-plain colored ${styles.icon}`}></i>
+          <i className={`devicon-laravel-plain colored ${styles.icon}`}></i>
+          <i className={`devicon-python-plain colored ${styles.icon}`}></i>
+          <i className={`devicon-flask-original colored ${styles.icon}`}></i>
+        </div>
+        <hr />
       </section>
     </div>
   );
