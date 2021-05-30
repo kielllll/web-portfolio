@@ -37,7 +37,7 @@ export default function Home() {
     {
       name: "Web Portfolio",
       description:
-        "My own web portfolio. Inspiored by Benjanmin Carlson's Profile",
+        "My own web portfolio. Inspired by Benjanmin Carlson's Profile",
       image: "/images/none.jpg",
       repoLink: "https://github.com/kielllll/web-portfolio",
       productionLink: "https://csp3-client-iota.vercel.app/",
@@ -157,7 +157,6 @@ export default function Home() {
         <Typography component="h3" variant="h3">
           Tech Stack
         </Typography>
-        <hr />
       </section>
     </div>
   );

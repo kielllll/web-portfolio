@@ -11,3 +11,8 @@ a:hover {
 footer {
   text-align: center;
 }
+
+hr {
+  width: 80%;
+  text-align: center;
+}
