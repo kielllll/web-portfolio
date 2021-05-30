@@ -15,6 +15,10 @@ const Layout = ({ children }) => {
           rel="stylesheet"
           href="https://fonts.googleapis.com/icon?family=Material+Icons"
         />
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.11.0/devicon.min.css"
+        ></link>
       </Head>
       <Container maxWidth="md">
         <NavBar />
