@@ -62,7 +62,7 @@ export default function About() {
         <title>Gear | Ezekiel Tarranza</title>
       </Head>
       <section>
-        <Typography component="h1" variant="h1">
+        <Typography component="h1" variant="h2">
           Gear
         </Typography>
         <Typography component="h4" variant="subtitle1">
@@ -91,6 +91,7 @@ export default function About() {
           </Typography>
         ))}
       </section>
+      <hr />
     </div>
   );
 }

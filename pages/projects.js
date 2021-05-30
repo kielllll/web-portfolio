@@ -118,7 +118,7 @@ export default function Projects() {
       </Head>
 
       <section>
-        <Typography component="h1" variant="h1">
+        <Typography component="h1" variant="h2">
           Projects
         </Typography>
         <Typography component="h4" variant="subtitle1">
@@ -150,6 +150,7 @@ export default function Projects() {
           </div>
         ))}
       </section>
+      <hr />
     </div>
   );
 }
