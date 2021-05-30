@@ -23,7 +23,7 @@ export default function Home() {
         "A capstone project during my web development bootcamp with Zuitt.",
       image: "/images/none.jpg",
       repoLink: "https://gitlab.com/kielllll/csp3-client",
-      productionLink: "https://csp3-client-je4pi3m7s-kielllll.vercel.app/",
+      productionLink: "https://csp3-client-iota.vercel.app/",
       tags: ["next.js", "html", "css", "vercel"],
     },
     {
@@ -40,7 +40,7 @@ export default function Home() {
         "My own web portfolio. Inspired by Benjanmin Carlson's Profile",
       image: "/images/none.jpg",
       repoLink: "https://github.com/kielllll/web-portfolio",
-      productionLink: "https://csp3-client-iota.vercel.app/",
+      productionLink: "https://zeke-portfolio.vercel.app/",
       tags: ["next.js", "html", "css", "vercel"],
     },
   ];
