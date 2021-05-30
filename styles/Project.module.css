@@ -1,8 +1,23 @@
 .root {
   display: flex;
+  width: 100%;
 }
 
 .sub-root {
   display: flex;
   flex-direction: column;
+  width: inherit;
+}
+
+.card-actions {
+  width: inherit;
+}
+
+.tags {
+  width: 100%;
+  display: flex;
+}
+
+.tag {
+  padding-left: 4px;
 }

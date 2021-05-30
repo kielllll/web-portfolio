@@ -18,11 +18,26 @@ const Project = ({ project }) => {
           <Typography variant="subtitle1" color="textSecondary">
             {description}
           </Typography>
+          <div className={styles.tags}>
+            <Typography variant="subtitle1" color="textSecondary">
+              Tags:
+            </Typography>
+            {tags.map((tag, e) => (
+              <Typography
+                className={styles.tag}
+                key={e}
+                variant="subtitle1"
+                color="textSecondary"
+              >
+                {tag}
+              </Typography>
+            ))}
+          </div>
         </CardContent>
-        <CardActions>
+        <CardActions className={styles["card-actions"]}>
           <Button size="small">
             <a href={repoLink} target="_blank">
-              Repository
+              Repo
             </a>
           </Button>
           {productionLink ? (
