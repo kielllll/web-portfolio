@@ -103,10 +103,11 @@ export default function Home() {
 
       <section>
         <Typography component="h1" variant="h1">
-          Ezekiel Tarranza
+          Zeke
         </Typography>
         <Typography component="h4" variant="subtitle1">
-          Hi there! I'm a Full-Stack Developer, tech-enthusiast, and a potato!
+          Hi there! I'm Ezekiel Tarranza, a Full-Stack Developer,
+          tech-enthusiast, and a potato!
         </Typography>
         <Typography component="h4" variant="subtitle1">
           I find developing things fun! I explore, get in awe, and learn how to

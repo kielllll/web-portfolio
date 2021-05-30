@@ -1,7 +1,6 @@
 import Card from "@material-ui/core/Card";
 import CardActions from "@material-ui/core/CardActions";
 import CardContent from "@material-ui/core/CardContent";
-import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import styles from "../styles/Project.module.css";
@@ -11,11 +10,6 @@ const Project = ({ project }) => {
 
   return (
     <Card className={styles.root}>
-      <CardMedia
-        className={styles["project-image"]}
-        image={image}
-        title={name}
-      />
       <div className={styles["sub-root"]}>
         <CardContent>
           <Typography component="h5" variant="h5">
