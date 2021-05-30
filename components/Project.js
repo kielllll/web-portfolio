@@ -31,11 +31,15 @@ const Project = ({ project }) => {
               Repository
             </a>
           </Button>
-          <Button size="small">
-            <a href={productionLink} target="_blank">
-              Live
-            </a>
-          </Button>
+          {productionLink ? (
+            <Button size="small">
+              <a href={productionLink} target="_blank">
+                Live
+              </a>
+            </Button>
+          ) : (
+            ""
+          )}
         </CardActions>
       </div>
     </Card>
