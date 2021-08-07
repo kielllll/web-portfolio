@@ -17,7 +17,7 @@ export default function About() {
     },
     {
       type: "SSD",
-      name: "Samsung M.2 500GB",
+      name: "Samsung M.2 500GB, AData SATA 2.5 265GB",
     },
     {
       type: "HDD",
@@ -44,11 +44,11 @@ export default function About() {
   const software = [
     {
       type: "IDE",
-      name: "Visual Studio Code",
+      name: "Visual Studio Code / Webstorm",
     },
     {
       type: "API Tester",
-      name: "Postman",
+      name: "Postman / GraphQL Playground",
     },
     {
       type: "Browser",

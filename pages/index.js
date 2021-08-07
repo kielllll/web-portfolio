@@ -47,9 +47,17 @@ export default function Home() {
 
   const experiences = [
     {
+      company: "Azoo Inc.",
+      role: "Web Developer",
+      duration: "June 2021 - Present",
+      jobType: ["Full Time"],
+      description:
+        "Maintain and improve web application.",
+    },
+    {
       company: "Summit Digital",
       role: "Automations / Web Developer",
-      duration: "March 2021 - Present",
+      duration: "March 2021 - July 2021",
       jobType: ["Part Time"],
       description:
         "Develop Lead Funnels and Automations through GoHighLevel CRM, LeadsHook, and Integration Platforms i.e Zapier, Pipedream.",
@@ -57,7 +65,7 @@ export default function Home() {
     {
       company: "itGenius",
       role: "Software Engineer",
-      duration: "August 2019 - Present",
+      duration: "August 2019 - July 2021",
       jobType: ["Full Time"],
       description:
         "Developing Web Applications, API Integrations, Automations, and Data Visualization using Google Data Studio",
