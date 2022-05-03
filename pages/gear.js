@@ -1,60 +1,8 @@
 import Head from "next/head";
 import Typography from "@material-ui/core/Typography";
+import {hardware, software} from "../data/data";
 
 export default function About() {
-  const hardware = [
-    {
-      type: "Processor",
-      name: "AMD Ryzen 5 3600",
-    },
-    {
-      type: "RAM",
-      name: "Team Elite 2 x 8GB",
-    },
-    {
-      type: "Graphics Card",
-      name: "Nvidia GTX 1650",
-    },
-    {
-      type: "SSD",
-      name: "Samsung M.2 500GB, AData SATA 2.5 265GB",
-    },
-    {
-      type: "HDD",
-      name: "Seagate 1TB",
-    },
-    {
-      type: "Primary Monitor",
-      name: "Asus VP259QGR 144hz 23.8in",
-    },
-    {
-      type: "Secondary Monitor",
-      name: "HP 23.8in",
-    },
-    {
-      type: "Keyboard",
-      name: "Rakk Lam-Ang Lite (Modded)",
-    },
-    {
-      type: "Mouse",
-      name: "HyperX Pulse Core",
-    },
-  ];
-
-  const software = [
-    {
-      type: "IDE",
-      name: "Visual Studio Code / Webstorm",
-    },
-    {
-      type: "API Tester",
-      name: "Postman / GraphQL Playground",
-    },
-    {
-      type: "Browser",
-      name: "Google Chrome",
-    },
-  ];
 
   return (
     <div>
