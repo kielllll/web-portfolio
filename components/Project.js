@@ -37,7 +37,14 @@ const Project = ({ project }) => {
 
           {!!productionLink && (
             <Button size="small">
-              <a href={productionLink} target="_blank">
+              <a
+                href={
+                  productionLink.includes('https')
+                    ? productionLink
+                    : `https://${productionLink}`
+                }
+                target="_blank"
+              >
                 Live
               </a>
             </Button>
