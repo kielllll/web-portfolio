@@ -28,19 +28,15 @@ const Project = ({ project }) => {
         </CardContent>
         <CardActions className={styles['card-actions']}>
           {!isPrivate && (
-            <Button size="small">
-              <a href={repoLink} target="_blank">
-                Repo
-              </a>
-            </Button>
+            <a href={repoLink} target="_blank">
+              <Button size="small">Repo</Button>
+            </a>
           )}
 
           {!!productionLink && (
-            <Button size="small">
-              <a href={productionLink} target="_blank">
-                Live
-              </a>
-            </Button>
+            <a href={productionLink} target="_blank">
+              <Button size="small">Live</Button>
+            </a>
           )}
         </CardActions>
       </div>
