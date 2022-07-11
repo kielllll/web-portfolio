@@ -1,7 +1,7 @@
-import Footer from "./Footer";
-import NavBar from "./NavBar";
-import Head from "next/head";
-import Container from "@material-ui/core/Container";
+import Footer from './Footer'
+import NavBar from './NavBar'
+import Head from 'next/head'
+import Container from '@material-ui/core/Container'
 
 const Layout = ({ children }) => {
   return (
@@ -19,6 +19,7 @@ const Layout = ({ children }) => {
           rel="stylesheet"
           href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.11.0/devicon.min.css"
         ></link>
+        <meta name="description" content="Zeke Portfolio" />
       </Head>
       <Container maxWidth="md">
         <NavBar />
@@ -26,7 +27,7 @@ const Layout = ({ children }) => {
         <Footer />
       </Container>
     </div>
-  );
-};
+  )
+}
 
-export default Layout;
+export default Layout
